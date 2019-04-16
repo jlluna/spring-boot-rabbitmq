@@ -31,6 +31,6 @@ public class RabbitMQWebController {
 	emp.setEmpName(empName);
 		rabbitMQSender.send(emp);
 
-		return "Message sent to the RabbitMQ Successfully";
+		return "Message sent to the Globant RabbitMQ Successfully";
 	}
 }
